@@ -1,0 +1,164 @@
+/***--- Body ---***/
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+}
+
+h1,
+p{
+  text-align: center;
+}
+
+p{
+  color: rgb(136, 132, 132);
+  font-size: 20px;
+  margin: 0px;
+  margin-bottom: 30px;
+}
+
+label{
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+/***--- Header ---***/
+
+.main-title{
+  color: #FFF;
+  background-color: #212130;
+  margin: 0;
+  padding: 18px 0;
+  font-size: 25px;
+}
+
+.title{
+  font-size: 25px;
+  margin: 20px 0px 5px 0px;
+}
+
+.secondary-title{
+  border-bottom: 3px solid #212130;
+}
+
+/***--- Contact Information ---***/
+
+.primary{
+  margin-top: 4px;
+  margin-bottom: 40px;
+  padding-top: 70px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #212130;
+  border-top: 1px solid #212130;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="search"],
+input[type="number"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  padding: 15px;
+  background-color: #e8eeef;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  border-radius: 5px;
+  width: 100%;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder{
+  text-align: right;
+}
+
+.clearfix{
+  margin-top: 20px;
+}
+
+/***--- Newsletter ---***/
+
+input[type="checkbox"] {
+  margin: 10px 0;
+}
+
+input[type="radio"] {
+  margin: 10px 0;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+}
+
+.fieldlist {
+  margin: 0 0 -1em;
+  padding: 0;
+}
+
+.fieldlist li {
+  list-style: none;
+  padding-bottom: 2px;
+}
+
+.choice{
+  display: inline;
+}
+
+.textarea-title{
+  display: block;
+  padding-top: 15px;
+}
+
+#thoughts{
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 23px 39px;
+  color: #FFF;
+  background-color:#0db6b6;
+  font-size: 22px;
+  text-align: center;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #0db6b6;
+  box-shadow: 0;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px){
+
+  /***--- Body ---***/
+  .main-container,
+  .secondary-title{
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  /***--- Contact Information ---***/
+  .contact-label{
+    float: left;
+    width: 25%;
+    margin-top: 15px;
+  }
+
+  .contact-input{
+    float: left;
+    width: 75%;
+  }
+
+  .clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
