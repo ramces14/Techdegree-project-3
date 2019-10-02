@@ -8,7 +8,8 @@
 }
 
 h1,
-p{
+p,
+footer{
   text-align: center;
 }
 
@@ -76,6 +77,11 @@ input[type="email"]::placeholder{
   text-align: right;
 }
 
+.zip-code-input{
+  max-width: 35%;
+  margin-right: auto;
+}               
+
 .clearfix{
   margin-top: 20px;
 }
@@ -113,7 +119,9 @@ input[type="radio"] {
 
 .textarea-title{
   display: block;
+  margin-top: 15px;
   padding-top: 15px;
+
 }
 
 #thoughts{
@@ -134,6 +142,15 @@ button {
   margin-bottom: 10px;
 }
 
+/***--- Footer ---***/
+
+footer{
+  margin-top: 20px;
+}
+
+small{
+  color: rgb(150, 147, 147)
+}
 @media (min-width: 768px){
 
   /***--- Body ---***/
