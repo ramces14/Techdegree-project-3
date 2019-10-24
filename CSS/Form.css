@@ -44,6 +44,10 @@ label{
   border-bottom: 3px solid #212130;
 }
 
+legend{
+  font-size: 25px;
+}
+
 /***--- Contact Information ---***/
 
 .primary{
@@ -70,6 +74,10 @@ select {
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
   border-radius: 5px;
   width: 100%;
+}
+
+input:focus{
+  border: 3px solid #1ba0c2;
 }
 
 input[type="text"]::placeholder,
@@ -157,6 +165,7 @@ small{
   .main-container,
   .secondary-title{
     width: 70%;
+    max-width: 600px;
     margin: 0 auto;
   }
 

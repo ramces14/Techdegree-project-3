@@ -19,9 +19,9 @@
 
     <div class="main-container">
 
-             <div class="primary">
+             <form class="primary">
 
-                <h2 class="information">Contact Information</h2>
+                <legend class="information">Contact Information</legend>
             
                 <div class="clearfix">
                     <div class="contact-label">
@@ -70,10 +70,10 @@
 
                 <div class="clearfix">
                     <div class="contact-label">
-                        <label>State</label>
+                        <label for="state">State</label>
                     </div>
                     <div class="contact-input">
-                        <select>
+                        <select id="state" name="user_state">
                             <option>Choose State</option>
                             <option>New York</option>
                             <option>California</option>
@@ -93,11 +93,11 @@
                     </div>
                 </div>
 
-        </div>
+             </form>
 
-        <div class="secondary">
+        <form class="secondary">
 
-            <h2>Newsletter</h2>
+            <legend>Newsletter</legend>
 
 
             <h3>Select the newsletters you would like to recieve</h3>
@@ -141,7 +141,7 @@
 
             <button type="submit"> Sign Up </button>
 
-        </div>
+        </form>
 
     </div>
     
