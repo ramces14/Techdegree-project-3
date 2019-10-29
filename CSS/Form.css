@@ -25,6 +25,10 @@ label{
   padding-bottom: 8px;
 }
 
+fieldset{
+  border: none;
+}
+
 /***--- Header ---***/
 
 .main-title{
